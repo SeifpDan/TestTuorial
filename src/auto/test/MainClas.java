@@ -21,6 +21,7 @@ public class MainClas {
         Nt.aratTot();
         
         
+           
         
         
         System.out.println("min byte este: " + Byte.MIN_VALUE + "\nmax byte este: " + Byte.MAX_VALUE);
