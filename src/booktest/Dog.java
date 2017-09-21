@@ -5,7 +5,7 @@ public class Dog {
     int size;
     String name;
 
-    void bark(int n) {
+   public void bark(int n) {
         for (int i = 0; i < n; i++)
             if (size > 60) {
                 System.out.println(name);
@@ -18,5 +18,12 @@ public class Dog {
                 System.out.println(name);
                 System.out.println("Gav >\n");
             }
+    }
+
+    void TestDrive(int x, int m){
+
+        int z=x*m;
+        System.out.println(z);
+
     }
 }

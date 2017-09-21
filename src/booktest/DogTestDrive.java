@@ -17,8 +17,12 @@ public class DogTestDrive {
         thre.size = 35;
 
         one.bark(1);
-        two.bark(2);
-        thre.bark(5);
+        two.bark(1);
+        thre.bark(1);
+
+
+        Dog testdrive= new Dog();
+        testdrive.TestDrive(one.size,thre.size);
 
 
     }
