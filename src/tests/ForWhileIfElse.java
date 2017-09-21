@@ -1,31 +1,32 @@
-package test;
+package tests;
 
 import java.util.Scanner;
 
 public class ForWhileIfElse {
 
     public static void main(String[] args) {
-        
-         Scanner sc=new Scanner(System.in);  
-         
+
+        Scanner sc = new Scanner(System.in);
+
         System.out.print("Introduceti x> ");
-        int nrx=sc.nextInt();  
-         inFor(nrx);
+        int nrx = sc.nextInt();
+        inFor(nrx);
         System.out.println("\n");
-           
+
         System.out.print("Introduceti y> ");
-        int nry=sc.nextInt(); 
+        int nry = sc.nextInt();
         inWhile(nry);
-        
+
         System.out.println("\n");
-         System.out.print("Introduceti z> ");
-        int nrz=sc.nextInt(); 
+        System.out.print("Introduceti z> ");
+        int nrz = sc.nextInt();
         inIfElse(nrx);
 
     }
-// instructiunea for
+
+    // instructiunea for
     public static void inFor(int mx) {
-int x;
+        int x;
         for (x = 0; x < mx; x++) {
             System.out.println("x este egal " + x);
         }
@@ -42,10 +43,10 @@ int x;
     }
 
     // instructiunea if/else
-    
+
     public static void inIfElse(int z) {
         String m = "az";
-        
+
         if (z == 10) {
             System.out.println("z egal cu 10");
         } else {
