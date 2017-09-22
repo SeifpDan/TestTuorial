@@ -6,15 +6,15 @@ public class DogTestDrive {
 
         Dog one = new Dog();
         one.name = "Griv";
-        one.size = 70;
+        one.setSize(70);
 
         Dog two = new Dog();
         two.name = one.name;
-        two.size = 8;
+        two.setSize(8);
 
         Dog thre = new Dog();
         thre.name = "Griv";
-        thre.size = 35;
+        thre.setSize(35);
 
         one.bark(1);
         two.bark(1);
@@ -22,7 +22,7 @@ public class DogTestDrive {
 
 
         Dog testdrive= new Dog();
-        testdrive.TestDrive(one.size,thre.size);
+        testdrive.TestDrive(8,80);
 
 
     }
